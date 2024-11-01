@@ -1,0 +1,41 @@
+/* Mixed Tape  CSS */
+div.mixedTapePlayList {
+	top: 100pt;
+	float:left;
+	border: 1px solid #ccc;
+	margin-right: 16px;
+	margin-bottom: 10px;
+}
+
+div.mixedTapePlayList strong.playlist-header {
+	display: block;
+	background-color: #f8f8ec;
+	border-top: 1px solid #fcfcfc;
+	border-left: 1px solid #fcfcfc;
+	border-bottom: 1px solid #f0f0e0;
+	border-right: 1px solid #f0f0e0;
+	color: #777;
+/** Styling regarding TOC title: **/
+	padding: 2px 2px 2px 2px;
+	text-align: left;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+div.mixedTapePlayList ul {
+	list-style: none;
+	padding: 5px;
+	background-color: #fcfcfc;
+	overflow: wrap;
+}
+
+div.mixedTapePlayList li a {
+	text-decoration: none;
+	border: 0 none;
+	color: #777;
+}
+/* music brainz icon link */
+a[class ="musicbrainz"] { 
+   padding-right: 26px;
+   background: transparent url(icon_musicbrainz.png) no-repeat center right;
+}
